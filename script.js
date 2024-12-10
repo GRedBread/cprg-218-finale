@@ -7,4 +7,3 @@ wrappers.forEach((wrapper) => {
     wrapper.style.setProperty('--glow', '0');
   });
 });
-
