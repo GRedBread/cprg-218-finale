@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .album{
     background-color: #1a1a1a;
     border-radius: 12px;
@@ -193,6 +192,17 @@ p {
     font-size: 14px;
     margin-bottom: 10px;
 }
+/* Initially set the albums to be invisible */
+.album {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+/* Fade-In effect when visible on scroll */
+.fade-in {
+    opacity: 1 !important;
+}
+
 audio {
     width: 100%;
     margin-top: 10px;
